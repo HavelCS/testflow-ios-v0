@@ -1,0 +1,22 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/havel/Desktop/testflow-ios/mercle-app-redirect/build/ios/Profile-iphoneos/uni_links/uni_links.framework/uni_links'
+relocations:
+  - { offsetInCU: 0x33, offset: 0x3C8C, size: 0x8, addend: 0x0, symName: _uni_linksVersionString, symObjAddr: 0x0, symBinAddr: 0x4878, symSize: 0x0 }
+  - { offsetInCU: 0x67, offset: 0x3CC0, size: 0x8, addend: 0x0, symName: _uni_linksVersionNumber, symObjAddr: 0x28, symBinAddr: 0x48A0, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x3CFC, size: 0x8, addend: 0x0, symName: '+[UniLinksPlugin sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x44 }
+  - { offsetInCU: 0x65, offset: 0x3D3A, size: 0x8, addend: 0x0, symName: '-[UniLinksPlugin setLatestLink:]', symObjAddr: 0x160, symBinAddr: 0x4160, symSize: 0x90 }
+  - { offsetInCU: 0xC6, offset: 0x3D9B, size: 0x8, addend: 0x0, symName: __instance, symObjAddr: 0x4410, symBinAddr: 0xCDC0, symSize: 0x0 }
+  - { offsetInCU: 0x1A1, offset: 0x3E76, size: 0x8, addend: 0x0, symName: '+[UniLinksPlugin sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x44 }
+  - { offsetInCU: 0x1D1, offset: 0x3EA6, size: 0x8, addend: 0x0, symName: '+[UniLinksPlugin registerWithRegistrar:]', symObjAddr: 0x44, symBinAddr: 0x4044, symSize: 0x11C }
+  - { offsetInCU: 0x239, offset: 0x3F0E, size: 0x8, addend: 0x0, symName: '-[UniLinksPlugin application:didFinishLaunchingWithOptions:]', symObjAddr: 0x1F0, symBinAddr: 0x41F0, symSize: 0x9C }
+  - { offsetInCU: 0x296, offset: 0x3F6B, size: 0x8, addend: 0x0, symName: '-[UniLinksPlugin application:openURL:options:]', symObjAddr: 0x28C, symBinAddr: 0x428C, symSize: 0x48 }
+  - { offsetInCU: 0x2EF, offset: 0x3FC4, size: 0x8, addend: 0x0, symName: '-[UniLinksPlugin application:continueUserActivity:restorationHandler:]', symObjAddr: 0x2D4, symBinAddr: 0x42D4, symSize: 0xE4 }
+  - { offsetInCU: 0x348, offset: 0x401D, size: 0x8, addend: 0x0, symName: '-[UniLinksPlugin handleMethodCall:result:]', symObjAddr: 0x3B8, symBinAddr: 0x43B8, symSize: 0xB4 }
+  - { offsetInCU: 0x3C0, offset: 0x4095, size: 0x8, addend: 0x0, symName: '-[UniLinksPlugin onListenWithArguments:eventSink:]', symObjAddr: 0x46C, symBinAddr: 0x446C, symSize: 0x38 }
+  - { offsetInCU: 0x40E, offset: 0x40E3, size: 0x8, addend: 0x0, symName: '-[UniLinksPlugin onCancelWithArguments:]', symObjAddr: 0x4A4, symBinAddr: 0x44A4, symSize: 0x24 }
+  - { offsetInCU: 0x44D, offset: 0x4122, size: 0x8, addend: 0x0, symName: '-[UniLinksPlugin initialLink]', symObjAddr: 0x4C8, symBinAddr: 0x44C8, symSize: 0x8 }
+  - { offsetInCU: 0x481, offset: 0x4156, size: 0x8, addend: 0x0, symName: '-[UniLinksPlugin setInitialLink:]', symObjAddr: 0x4D0, symBinAddr: 0x44D0, symSize: 0x8 }
+  - { offsetInCU: 0x4BC, offset: 0x4191, size: 0x8, addend: 0x0, symName: '-[UniLinksPlugin latestLink]', symObjAddr: 0x4D8, symBinAddr: 0x44D8, symSize: 0x8 }
+  - { offsetInCU: 0x4F0, offset: 0x41C5, size: 0x8, addend: 0x0, symName: '-[UniLinksPlugin .cxx_destruct]', symObjAddr: 0x4E0, symBinAddr: 0x44E0, symSize: 0x3C }
+...
