@@ -1,0 +1,20 @@
+{
+  "" : {
+    "const-values" : "/Users/havel/Desktop/testflow-ios/mercle-app-redirect/testflow-ios-v0/build/macos/Build/Intermediates.noindex/Pods.build/Profile/url_launcher_macos.build/Objects-normal/arm64/url_launcher_macos-master.swiftconstvalues",
+    "dependencies" : "/Users/havel/Desktop/testflow-ios/mercle-app-redirect/testflow-ios-v0/build/macos/Build/Intermediates.noindex/Pods.build/Profile/url_launcher_macos.build/Objects-normal/arm64/url_launcher_macos-master.d",
+    "diagnostics" : "/Users/havel/Desktop/testflow-ios/mercle-app-redirect/testflow-ios-v0/build/macos/Build/Intermediates.noindex/Pods.build/Profile/url_launcher_macos.build/Objects-normal/arm64/url_launcher_macos-master.dia",
+    "emit-module-dependencies" : "/Users/havel/Desktop/testflow-ios/mercle-app-redirect/testflow-ios-v0/build/macos/Build/Intermediates.noindex/Pods.build/Profile/url_launcher_macos.build/Objects-normal/arm64/url_launcher_macos-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/havel/Desktop/testflow-ios/mercle-app-redirect/testflow-ios-v0/build/macos/Build/Intermediates.noindex/Pods.build/Profile/url_launcher_macos.build/Objects-normal/arm64/url_launcher_macos-master-emit-module.dia",
+    "swift-dependencies" : "/Users/havel/Desktop/testflow-ios/mercle-app-redirect/testflow-ios-v0/build/macos/Build/Intermediates.noindex/Pods.build/Profile/url_launcher_macos.build/Objects-normal/arm64/url_launcher_macos-master.swiftdeps"
+  },
+  "/Users/havel/.pub-cache/hosted/pub.dev/url_launcher_macos-3.2.3/macos/url_launcher_macos/Sources/url_launcher_macos/messages.g.swift" : {
+    "index-unit-output-path" : "/Pods.build/Profile/url_launcher_macos.build/Objects-normal/arm64/messages.g.o",
+    "llvm-bc" : "/Users/havel/Desktop/testflow-ios/mercle-app-redirect/testflow-ios-v0/build/macos/Build/Intermediates.noindex/Pods.build/Profile/url_launcher_macos.build/Objects-normal/arm64/messages.g.bc",
+    "object" : "/Users/havel/Desktop/testflow-ios/mercle-app-redirect/testflow-ios-v0/build/macos/Build/Intermediates.noindex/Pods.build/Profile/url_launcher_macos.build/Objects-normal/arm64/messages.g.o"
+  },
+  "/Users/havel/.pub-cache/hosted/pub.dev/url_launcher_macos-3.2.3/macos/url_launcher_macos/Sources/url_launcher_macos/UrlLauncherPlugin.swift" : {
+    "index-unit-output-path" : "/Pods.build/Profile/url_launcher_macos.build/Objects-normal/arm64/UrlLauncherPlugin.o",
+    "llvm-bc" : "/Users/havel/Desktop/testflow-ios/mercle-app-redirect/testflow-ios-v0/build/macos/Build/Intermediates.noindex/Pods.build/Profile/url_launcher_macos.build/Objects-normal/arm64/UrlLauncherPlugin.bc",
+    "object" : "/Users/havel/Desktop/testflow-ios/mercle-app-redirect/testflow-ios-v0/build/macos/Build/Intermediates.noindex/Pods.build/Profile/url_launcher_macos.build/Objects-normal/arm64/UrlLauncherPlugin.o"
+  }
+}

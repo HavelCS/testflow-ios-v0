@@ -90,6 +90,10 @@ image
 3.0
 file:///Users/havel/.pub-cache/hosted/pub.dev/image-4.5.4/
 file:///Users/havel/.pub-cache/hosted/pub.dev/image-4.5.4/lib/
+intl
+2.12
+file:///Users/havel/.pub-cache/hosted/pub.dev/intl-0.18.1/
+file:///Users/havel/.pub-cache/hosted/pub.dev/intl-0.18.1/lib/
 json_annotation
 3.0
 file:///Users/havel/.pub-cache/hosted/pub.dev/json_annotation-4.9.0/
@@ -126,6 +130,10 @@ nested
 2.12
 file:///Users/havel/.pub-cache/hosted/pub.dev/nested-1.0.0/
 file:///Users/havel/.pub-cache/hosted/pub.dev/nested-1.0.0/lib/
+number_formatter
+2.14
+file:///Users/havel/.pub-cache/hosted/pub.dev/number_formatter-0.0.2/
+file:///Users/havel/.pub-cache/hosted/pub.dev/number_formatter-0.0.2/lib/
 path
 3.4
 file:///Users/havel/.pub-cache/hosted/pub.dev/path-1.9.1/

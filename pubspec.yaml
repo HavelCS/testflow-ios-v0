@@ -49,7 +49,8 @@ dependencies:
   provider: ^6.1.2  # State management
   uni_links: ^0.5.1  # For deep linking support
   app_links: ^3.5.1  # Modern deep linking support
-  
+  intl: ^0.18.1 
+  number_formatter: ^0.0.2
 
 dev_dependencies:
   flutter_test:

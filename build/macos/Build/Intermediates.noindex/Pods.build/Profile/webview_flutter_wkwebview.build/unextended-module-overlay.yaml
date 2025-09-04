@@ -1,0 +1,23 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/havel/Desktop/testflow-ios/mercle-app-redirect/testflow-ios-v0/build/macos/Build/Products/Profile/webview_flutter_wkwebview/webview_flutter_wkwebview.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/havel/Desktop/testflow-ios/mercle-app-redirect/testflow-ios-v0/build/macos/Build/Intermediates.noindex/Pods.build/Profile/webview_flutter_wkwebview.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    'type': 'directory',
+    'name': "/Users/havel/Desktop/testflow-ios/mercle-app-redirect/testflow-ios-v0/build/macos/Build/Products/Profile/webview_flutter_wkwebview/webview_flutter_wkwebview.framework/Headers"
+    'contents': [{
+      'type': 'file',
+      'name': "webview_flutter_wkwebview-Swift.h",
+      'external-contents': "/Users/havel/Desktop/testflow-ios/mercle-app-redirect/testflow-ios-v0/build/macos/Build/Intermediates.noindex/Pods.build/Profile/webview_flutter_wkwebview.build/unextended-interface-header.h",
+    }]
+    }]
+}

@@ -1,0 +1,15 @@
+{
+  "" : {
+    "const-values" : "/Users/havel/Desktop/testflow-ios/mercle-app-redirect/testflow-ios-v0/build/macos/Build/Intermediates.noindex/Pods.build/Profile/app_links.build/Objects-normal/x86_64/app_links-master.swiftconstvalues",
+    "dependencies" : "/Users/havel/Desktop/testflow-ios/mercle-app-redirect/testflow-ios-v0/build/macos/Build/Intermediates.noindex/Pods.build/Profile/app_links.build/Objects-normal/x86_64/app_links-master.d",
+    "diagnostics" : "/Users/havel/Desktop/testflow-ios/mercle-app-redirect/testflow-ios-v0/build/macos/Build/Intermediates.noindex/Pods.build/Profile/app_links.build/Objects-normal/x86_64/app_links-master.dia",
+    "emit-module-dependencies" : "/Users/havel/Desktop/testflow-ios/mercle-app-redirect/testflow-ios-v0/build/macos/Build/Intermediates.noindex/Pods.build/Profile/app_links.build/Objects-normal/x86_64/app_links-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/havel/Desktop/testflow-ios/mercle-app-redirect/testflow-ios-v0/build/macos/Build/Intermediates.noindex/Pods.build/Profile/app_links.build/Objects-normal/x86_64/app_links-master-emit-module.dia",
+    "swift-dependencies" : "/Users/havel/Desktop/testflow-ios/mercle-app-redirect/testflow-ios-v0/build/macos/Build/Intermediates.noindex/Pods.build/Profile/app_links.build/Objects-normal/x86_64/app_links-master.swiftdeps"
+  },
+  "/Users/havel/.pub-cache/hosted/pub.dev/app_links-3.5.1/macos/Classes/AppLinksMacosPlugin.swift" : {
+    "index-unit-output-path" : "/Pods.build/Profile/app_links.build/Objects-normal/x86_64/AppLinksMacosPlugin.o",
+    "llvm-bc" : "/Users/havel/Desktop/testflow-ios/mercle-app-redirect/testflow-ios-v0/build/macos/Build/Intermediates.noindex/Pods.build/Profile/app_links.build/Objects-normal/x86_64/AppLinksMacosPlugin.bc",
+    "object" : "/Users/havel/Desktop/testflow-ios/mercle-app-redirect/testflow-ios-v0/build/macos/Build/Intermediates.noindex/Pods.build/Profile/app_links.build/Objects-normal/x86_64/AppLinksMacosPlugin.o"
+  }
+}

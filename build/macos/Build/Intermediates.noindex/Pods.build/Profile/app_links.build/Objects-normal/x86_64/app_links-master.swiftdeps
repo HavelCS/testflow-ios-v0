@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)"
+options: "08f6aadca6053fa90612125e3ea0215974eb7c6c696d2c11d3f7baf6d654548f"
+build_start_time: [1756917345, 578841000]
+build_end_time: [1756917366, 868841000]
+inputs:
+  "/Users/havel/.pub-cache/hosted/pub.dev/app_links-3.5.1/macos/Classes/AppLinksMacosPlugin.swift": [1756623167, 688861866]

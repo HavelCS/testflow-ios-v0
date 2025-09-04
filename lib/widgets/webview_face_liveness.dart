@@ -271,10 +271,12 @@ class _WebViewFaceLivenessState extends State<WebViewFaceLiveness> {
 
         // Pop back to face scan setup and show under verification screen
         Navigator.of(context).pop(); // Close this webview screen
-        
+
         // Extract session ID and pass it to under-verification screen
         final sessionId = widget.sessionId ?? _extractSessionIdFromUrl();
-        Navigator.of(context).pushNamed('/under-verification', arguments: {'sessionId': sessionId});
+        Navigator.of(
+          context,
+        ).pushNamed('/under-verification', arguments: {'sessionId': sessionId});
       } else {
         throw Exception('Cannot launch URL');
       }

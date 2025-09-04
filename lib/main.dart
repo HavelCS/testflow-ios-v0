@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:mercle/features/rewards/screens/lootbox/open-lootbox.dart';
+import 'package:mercle/navbar.dart';
 import 'package:provider/provider.dart';
 import 'package:mercle/providers/user_provider.dart';
 import 'package:mercle/router.dart';
@@ -38,7 +40,7 @@ class _MyAppState extends State<MyApp> {
             ),
             debugShowCheckedModeBanner: false,
             onGenerateRoute: (settings) => routeSettings(settings),
-            home: const AuthWrapper(),
+            home: const NavBar(),
           );
         },
       ),

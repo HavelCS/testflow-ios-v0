@@ -1,0 +1,21 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/havel/Desktop/testflow-ios/mercle-app-redirect/testflow-ios-v0/build/macos/Build/Products/Profile/mercle.app/Contents/MacOS/mercle'
+relocations:
+  - { offsetInCU: 0x27, offset: 0xCF412, size: 0x8, addend: 0x0, symName: '_$s6mercle17MainFlutterWindowC12awakeFromNibyyFTo', symObjAddr: 0x0, symBinAddr: 0x10000245C, symSize: 0xEC }
+  - { offsetInCU: 0x61, offset: 0xCF44C, size: 0x8, addend: 0x0, symName: '_$s6mercle17MainFlutterWindowC12awakeFromNibyyFTo', symObjAddr: 0x0, symBinAddr: 0x10000245C, symSize: 0xEC }
+  - { offsetInCU: 0x127, offset: 0xCF512, size: 0x8, addend: 0x0, symName: '_$s6mercle17MainFlutterWindowC11contentRect9styleMask7backing5deferACSo6CGRectV_So013NSWindowStyleH0VSo18NSBackingStoreTypeVSbtcfcTo', symObjAddr: 0xEC, symBinAddr: 0x100002548, symSize: 0x8C }
+  - { offsetInCU: 0x198, offset: 0xCF583, size: 0x8, addend: 0x0, symName: '_$s6mercle17MainFlutterWindowCMa', symObjAddr: 0x1A8, symBinAddr: 0x100002604, symSize: 0x20 }
+  - { offsetInCU: 0x1AC, offset: 0xCF597, size: 0x8, addend: 0x0, symName: '_$s6mercle24RegisterGeneratedPlugins8registryySo21FlutterPluginRegistry_p_tFTf4e_nSo0F14ViewControllerC_Tg5', symObjAddr: 0x1C8, symBinAddr: 0x100002624, symSize: 0x1A8 }
+  - { offsetInCU: 0x4FA, offset: 0xCF8E5, size: 0x8, addend: 0x0, symName: '_$s6mercle17MainFlutterWindowCfD', symObjAddr: 0x178, symBinAddr: 0x1000025D4, symSize: 0x30 }
+  - { offsetInCU: 0x27, offset: 0xCF934, size: 0x8, addend: 0x0, symName: '_$s6mercle11AppDelegateC47applicationShouldTerminateAfterLastWindowClosedySbSo13NSApplicationCFTo', symObjAddr: 0x0, symBinAddr: 0x1000027CC, symSize: 0x8 }
+  - { offsetInCU: 0x4B, offset: 0xCF958, size: 0x8, addend: 0x0, symName: '_$s6mercle11AppDelegateC47applicationShouldTerminateAfterLastWindowClosedySbSo13NSApplicationCFTo', symObjAddr: 0x0, symBinAddr: 0x1000027CC, symSize: 0x8 }
+  - { offsetInCU: 0x67, offset: 0xCF974, size: 0x8, addend: 0x0, symName: '_$s6mercle11AppDelegateC40applicationSupportsSecureRestorableStateySbSo13NSApplicationCFTo', symObjAddr: 0x8, symBinAddr: 0x1000027D4, symSize: 0x8 }
+  - { offsetInCU: 0x99, offset: 0xCF9A6, size: 0x8, addend: 0x0, symName: '_$s6mercle11AppDelegateCACycfcTo', symObjAddr: 0x10, symBinAddr: 0x1000027DC, symSize: 0x3C }
+  - { offsetInCU: 0xFE, offset: 0xCFA0B, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x7C, symBinAddr: 0x100002848, symSize: 0x28 }
+  - { offsetInCU: 0x148, offset: 0xCFA55, size: 0x8, addend: 0x0, symName: '_$s6mercle11AppDelegateCMa', symObjAddr: 0xA4, symBinAddr: 0x100002870, symSize: 0x20 }
+  - { offsetInCU: 0x31B, offset: 0xCFC28, size: 0x8, addend: 0x0, symName: '_$s6mercle11AppDelegateCfD', symObjAddr: 0x4C, symBinAddr: 0x100002818, symSize: 0x30 }
+  - { offsetInCU: 0x2B, offset: 0xCFC99, size: 0x8, addend: 0x0, symName: '_$s6mercle19ResourceBundleClass33_4D129C07E6E55A3176125C2F995B2202LLCfD', symObjAddr: 0x0, symBinAddr: 0x100002890, symSize: 0x10 }
+  - { offsetInCU: 0x6D, offset: 0xCFCDB, size: 0x8, addend: 0x0, symName: '_$s6mercle19ResourceBundleClass33_4D129C07E6E55A3176125C2F995B2202LLCMa', symObjAddr: 0x10, symBinAddr: 0x1000028A0, symSize: 0x20 }
+  - { offsetInCU: 0x1FB, offset: 0xCFE69, size: 0x8, addend: 0x0, symName: '_$s6mercle19ResourceBundleClass33_4D129C07E6E55A3176125C2F995B2202LLCfD', symObjAddr: 0x0, symBinAddr: 0x100002890, symSize: 0x10 }
+...

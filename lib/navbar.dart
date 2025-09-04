@@ -13,8 +13,10 @@ class NavBar extends StatefulWidget {
   State<NavBar> createState() => _NavBarState();
 }
 
+
+
 class _NavBarState extends State<NavBar> {
-  int index = 0;
+  int index = 2;
   List<Widget> screens = [MkeyScreen(), VouchScreen(), RewardsScreen()];
   @override
   Widget build(BuildContext context) {
@@ -23,7 +25,6 @@ class _NavBarState extends State<NavBar> {
       body: screens[index],
       bottomNavigationBar: Container(
         height: 88.h,
-
         decoration: BoxDecoration(color: Color(0XFF1F1F1F)),
         child: SingleChildScrollView(
           child: Column(
@@ -116,7 +117,7 @@ class _NavBarState extends State<NavBar> {
                           ),
                           SizedBox(height: 8.h),
                           Text(
-                            'Rewards',
+                            'Mewards',
                             style: TextStyle(
                               color:
                                   index == 2

@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)"
+options: "c9c4b4e5ef306aea7a8e04b13f5d41cc444a252ec7b94cf7e905adc58ba0ddf3"
+build_start_time: [1756917415, 713324000]
+build_end_time: [1756917433, 500650000]
+inputs:
+  ? "/Users/havel/Desktop/testflow-ios/mercle-app-redirect/testflow-ios-v0/build/macos/Build/Intermediates.noindex/Runner.build/Profile/Runner.build/DerivedSources/GeneratedAssetSymbols.swift"
+  : [1756917415, 590326222]
+  "/Users/havel/Desktop/testflow-ios/mercle-app-redirect/testflow-ios-v0/macos/Flutter/GeneratedPluginRegistrant.swift": [1756917305, 133380801]
+  "/Users/havel/Desktop/testflow-ios/mercle-app-redirect/testflow-ios-v0/macos/Runner/AppDelegate.swift": [1756621451, 138902424]
+  "/Users/havel/Desktop/testflow-ios/mercle-app-redirect/testflow-ios-v0/macos/Runner/MainFlutterWindow.swift": [1756621451, 144683486]

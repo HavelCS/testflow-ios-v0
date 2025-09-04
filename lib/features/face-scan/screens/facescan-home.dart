@@ -417,6 +417,9 @@ class _FaceScanSetupState extends State<FaceScanSetup> {
               ),
             ),
 
+
+
+
             SizedBox(height: 24.h),
             Container(
               height: 88.h,

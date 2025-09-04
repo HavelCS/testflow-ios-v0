@@ -9,6 +9,10 @@ import 'package:mercle/features/onboarding/phoneverification.dart';
 import 'package:mercle/features/onboarding/otpscreen.dart';
 import 'package:mercle/features/onboarding/splashscreen.dart';
 import 'package:mercle/features/onboarding/verification-success.dart';
+import 'package:mercle/features/rewards/screens/dailyscan/daily-scan.dart';
+import 'package:mercle/features/rewards/screens/lootbox/lootboxes.dart';
+import 'package:mercle/features/rewards/screens/mkey-decor/mkey-decor.dart';
+import 'package:mercle/features/rewards/screens/points-history/points-history.dart';
 import 'package:mercle/widgets/webview_face_liveness.dart';
 import 'package:mercle/services/auth_service.dart';
 import 'package:mercle/utils/face_verification_dialogs.dart';
@@ -85,16 +89,19 @@ Route<dynamic> routeSettings(RouteSettings routeSettings) {
           return WebFaceLiveness(
             onResult: (result) async {
               Navigator.pop(context); // Close face scan screen
-              
+
               // If face scan is complete, show under verification modal
               if (result['success'] == true && result['scanComplete'] == true) {
                 // Pop back to FaceScanSetup screen first
-                Navigator.pushReplacementNamed(context, FaceScanSetup.routeName);
-                
+                Navigator.pushReplacementNamed(
+                  context,
+                  FaceScanSetup.routeName,
+                );
+
                 // Then show the under verification bottom sheet with sessionId after a brief delay
                 Future.delayed(const Duration(milliseconds: 500), () {
                   showUnderVerificationBottomSheet(
-                    context, 
+                    context,
                     sessionId: result['sessionId'],
                   );
                 });
@@ -420,6 +427,39 @@ Route<dynamic> routeSettings(RouteSettings routeSettings) {
           return UnderVerificationScreen(sessionId: args?['sessionId']);
         },
       );
+    case '/daily-scan':
+      final args = routeSettings.arguments as Map<String, dynamic>?;
+      return MaterialPageRoute(
+        settings: routeSettings,
+        builder: (context) {
+          return DailyScan();
+        },
+      );
+    case '/loot-boxes':
+      final args = routeSettings.arguments as Map<String, dynamic>?;
+      return MaterialPageRoute(
+        settings: routeSettings,
+        builder: (context) {
+          return LootBoxes();
+        },
+      );
+    case '/mkey-decor':
+      final args = routeSettings.arguments as Map<String, dynamic>?;
+      return MaterialPageRoute(
+        settings: routeSettings,
+        builder: (context) {
+          return MkeyDecor();
+        },
+      );
+    case '/points-history':
+      final args = routeSettings.arguments as Map<String, dynamic>?;
+      return MaterialPageRoute(
+        settings: routeSettings,
+        builder: (context) {
+          return PointsHistoryScreen();
+        },
+      );
+
     default:
       return MaterialPageRoute(
         settings: routeSettings,
